@@ -9,7 +9,7 @@ import streamlit as st
 from streamlit_chat import message
 
 client = openai.OpenAI(
-    api_key='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')
+    api_key='your api key')
 
 
 def get_embedding(text):
